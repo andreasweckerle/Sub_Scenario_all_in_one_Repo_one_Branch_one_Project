@@ -20,6 +20,12 @@
   </cm:head>
   <cm:elements cm:rootid="irerohZFKGSuk9ZhL">
     <cm:element cm:id="irerohZFKGSuk9ZhL" cm:name="Variability_Model_3" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iSzFyTWL6zSIBDz5u" cm:class="ps:children">
+        <cm:relation cm:id="iKsPvUVe5nDBwaGZt" cm:type="ps:mandatory">
+          <cm:target cm:id="iX8XlVHHBunluA-2G">./i8WWkXglMiy6ac3LP</cm:target>
+          <cm:target cm:id="i2RFKYnkJYWjkDtW_">./iyf-LPO6vlgGNnidN</cm:target>
+        </cm:relation>
+      </cm:relations>
       <cm:properties>
         <cm:property cm:id="ioftwxGcvvUZFN3rA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
           <cm:constant cm:id="iRKK1uyn_EbwdPKIU" cm:type="ps:string">WECKEA</cm:constant>
@@ -31,7 +37,49 @@
           <cm:constant cm:id="iC9mANWDtoPI8DUvb" cm:type="ps:string">WECKEA</cm:constant>
         </cm:property>
         <cm:property cm:id="i67UxrEmEC-rlgNOl" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iM6-aeg4D5OGXvBUL" cm:type="ps:datetime">2022-10-20T09:43:59.256Z</cm:constant>
+          <cm:constant cm:id="iM6-aeg4D5OGXvBUL" cm:type="ps:datetime">2022-10-20T11:24:32.036Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i8WWkXglMiy6ac3LP" cm:name="Feature_3_A" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iaAlH0Js2D_Ue3BE_" cm:class="ps:parents">
+        <cm:relation cm:id="ih0EyOVfLvPXi-ivB" cm:type="ps:parent">
+          <cm:target cm:id="iUdv9kRb28qu9wTCq">./irerohZFKGSuk9ZhL</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iOL-3bmsp0FHUxHEs" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iymkMEDORRQJhcXEA" cm:type="ps:string">WECKEA</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_aIx2hi2noRqAy6Z" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iJQiY9eHzIVxWlR5D" cm:type="ps:datetime">2022-10-20T11:24:20.272Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLjchPdXZhfFwAqBI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ij7m0kY8oQN-Dkef0" cm:type="ps:string">WECKEA</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMKkWQW0dvvxTVP-w" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ir8z7IEI-Dzct1sCf" cm:type="ps:datetime">2022-10-20T11:24:20.272Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iyf-LPO6vlgGNnidN" cm:name="Feature_3_B" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="irSBeqQ_pruTrHNWt" cm:class="ps:parents">
+        <cm:relation cm:id="iO0B5gRMheX4hPDoD" cm:type="ps:parent">
+          <cm:target cm:id="i4t4Jnyq0_wzuCwCb">./irerohZFKGSuk9ZhL</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iP1wGGzTeQGlgBfT9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i2bP5us5MVngnlDrm" cm:type="ps:string">WECKEA</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ic24iR3ISI47orHd_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i8Iq0t_00GZyoj3mD" cm:type="ps:datetime">2022-10-20T11:24:32.036Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isEjHFgRh4XJkvBOT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iYp9PGntmPh9yj6fS" cm:type="ps:string">WECKEA</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMmt74npRc-ye9o68" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i-IQVdByaIXCv3LzK" cm:type="ps:datetime">2022-10-20T11:24:32.036Z</cm:constant>
         </cm:property>
       </cm:properties>
     </cm:element>
