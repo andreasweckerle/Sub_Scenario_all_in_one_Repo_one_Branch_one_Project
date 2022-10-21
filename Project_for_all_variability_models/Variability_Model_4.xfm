@@ -68,6 +68,12 @@
           <cm:target cm:id="iwtjJy_U3Z8H-Qg4y">./iuggNAas6axA4vGUD</cm:target>
         </cm:relation>
       </cm:relations>
+      <cm:relations cm:id="iwGbLRSNwDs2KIVoS" cm:class="ps:children">
+        <cm:relation cm:id="ihIuGxhOOdZnLyLaQ" cm:type="ps:alternative" cm:range="1">
+          <cm:target cm:id="iT3zn7vCrDjize005">./ibR02QYoV4s2pVNqe</cm:target>
+          <cm:target cm:id="irqwfVxz31L1KnQzK">./iAoCPgjLDbvwcUkf8</cm:target>
+        </cm:relation>
+      </cm:relations>
       <cm:properties>
         <cm:property cm:id="icWCBYARl0EsOb_rm" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
           <cm:constant cm:id="iqUoGFyiOX26ZjUtn" cm:type="ps:string">WECKEA</cm:constant>
@@ -76,10 +82,52 @@
           <cm:constant cm:id="iExEKrgOsaBuq5ACV" cm:type="ps:datetime">2022-10-20T11:24:57.932Z</cm:constant>
         </cm:property>
         <cm:property cm:id="iMZtDcJ-cdX-gv55h" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
-          <cm:constant cm:id="i7i6da0ja2nulLXat" cm:type="ps:string">WECKEA</cm:constant>
+          <cm:constant cm:id="i7i6da0ja2nulLXat" cm:type="ps:string">STRIS2</cm:constant>
         </cm:property>
         <cm:property cm:id="iosdor-maJR2Cp-DY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="iOKBKaaBzWXlwTdgx" cm:type="ps:datetime">2022-10-20T11:24:57.932Z</cm:constant>
+          <cm:constant cm:id="iOKBKaaBzWXlwTdgx" cm:type="ps:datetime">2022-10-21T12:25:50.134Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ibR02QYoV4s2pVNqe" cm:name="Neues_Feature" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ig_yKRkiRgFQYS5gG" cm:class="ps:parents">
+        <cm:relation cm:id="iM81zw6NmjHjeEWcp" cm:type="ps:parent">
+          <cm:target cm:id="i_Z66fdLz71_IRu_i">./if-Sts1ecYosEPoe6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ieWuk5D-LqrQQDfS7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipqXwjpgM3LdYId74" cm:type="ps:string">STRIS2</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isNwgZNAB6b9Zg9re" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iUeFgUZX4h6gnYbMg" cm:type="ps:datetime">2022-10-21T12:25:37.443Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="inwV0cqj0MsC11RRe" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ib85E12kKdvpkdUgI" cm:type="ps:string">STRIS2</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVr5RejM_7meuXO26" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iAE6NTRODUYeDcS3X" cm:type="ps:datetime">2022-10-21T12:25:37.443Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iAoCPgjLDbvwcUkf8" cm:name="Noch_eins" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="inlfP-4pQbuIGKKQv" cm:class="ps:parents">
+        <cm:relation cm:id="iSMoasQltkChoXGll" cm:type="ps:parent">
+          <cm:target cm:id="iVKXJCY61jIlhurrA">./if-Sts1ecYosEPoe6</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ioPHDkMqyZwjgZts7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i8aM2U3SFo1snnabg" cm:type="ps:string">STRIS2</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1PixvTX2g5jm0zwb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZXwpGTJcjbfqDrwf" cm:type="ps:datetime">2022-10-21T12:25:50.134Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRcYF7aPOGhOmut_l" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i06F_-3FbWtpnTbKn" cm:type="ps:string">STRIS2</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iebKqIzK7pZT2H7NJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i9uA-UUO_2A9W5v_t" cm:type="ps:datetime">2022-10-21T12:25:50.134Z</cm:constant>
         </cm:property>
       </cm:properties>
     </cm:element>

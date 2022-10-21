@@ -67,10 +67,15 @@
         </cm:property>
       </cm:properties>
     </cm:element>
-    <cm:element cm:id="ilk_vw6ojvZna90mz" cm:name="Feature_1_B" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+    <cm:element cm:id="ilk_vw6ojvZna90mz" cm:name="Geaendert" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
       <cm:relations cm:id="ioMpLvDzegQ2jpaLx" cm:class="ps:parents">
         <cm:relation cm:id="iG9lsHp5mRBE2pQh1" cm:type="ps:parent">
           <cm:target cm:id="ieieHA2n9HB2UpiGq">./itRkQ1nK8jbdCnHWB</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i2r7wvhuSwgvfjYyE" cm:class="ps:children">
+        <cm:relation cm:id="i2nu7wp0xkvHwRI3P" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="iP3lbFsnFekFG1ZOg">./iEqkDSSILVD7e8J72</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -81,10 +86,31 @@
           <cm:constant cm:id="igrDKwUhxWJbnuS4R" cm:type="ps:datetime">2022-10-20T11:23:36.478Z</cm:constant>
         </cm:property>
         <cm:property cm:id="i3llgQ_fHXtHLYqpT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
-          <cm:constant cm:id="i6p8pFVyTYLQo-LVb" cm:type="ps:string">WECKEA</cm:constant>
+          <cm:constant cm:id="i6p8pFVyTYLQo-LVb" cm:type="ps:string">STRIS2</cm:constant>
         </cm:property>
         <cm:property cm:id="iCi0W6ci2K-aLiuVS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="im4cjgyK6dUQZS-dE" cm:type="ps:datetime">2022-10-20T11:23:36.478Z</cm:constant>
+          <cm:constant cm:id="im4cjgyK6dUQZS-dE" cm:type="ps:datetime">2022-10-21T12:24:11.237Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iEqkDSSILVD7e8J72" cm:name="test" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iwZcIY-7cL5_bHRvM" cm:class="ps:parents">
+        <cm:relation cm:id="iv7AT5CxnKFwgsEcZ" cm:type="ps:parent">
+          <cm:target cm:id="il1RHoSCrr-urSRNU">./ilk_vw6ojvZna90mz</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i_cOT0e5Y-dfIuxW_" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iiiJzQQh65GVRnMk7" cm:type="ps:string">STRIS2</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLzl-ejBDwin5aV0r" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZqdQ-lFwaLkxdqLU" cm:type="ps:datetime">2022-10-21T12:24:11.237Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ieCjePzZdVe7-y2Fu" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iECNdMgzkB17bHFo3" cm:type="ps:string">STRIS2</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCz5g2TGEixyZwigh" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iXjwWRtJXjOXgQ8Zd" cm:type="ps:datetime">2022-10-21T12:24:11.237Z</cm:constant>
         </cm:property>
       </cm:properties>
     </cm:element>
